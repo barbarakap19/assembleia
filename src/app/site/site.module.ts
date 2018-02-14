@@ -14,12 +14,17 @@ import { ContatoComponent } from './contato/contato.component';
 import { RedeSocialComponent } from './rede-social/rede-social.component';
 import { FooterComponent } from './footer/footer.component';
 import { DivHrComponent } from './div-hr/div-hr.component';
+import { SobreComponent } from './sobre/sobre.component';
+import { OndeEstamosComponent } from './onde-estamos/onde-estamos.component';
+import { AgendaComponent } from './agenda/agenda.component';
+import { SiteRoutingModule } from './site.routing.module';
 
 @NgModule({
   imports: [
     CommonModule,
+    SiteRoutingModule
   ],
-  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent],
-  
+  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, OndeEstamosComponent, AgendaComponent],
+  exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, OndeEstamosComponent, AgendaComponent],
 })
 export class SiteModule { }
