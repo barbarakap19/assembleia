@@ -1,18 +1,27 @@
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 4.75rem;
+  background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  
+}
+
 figure.snip1139 {
-  font-family: 'Raleway', Arial, sans-serif;
+  
   position: relative;
-  float: left;
   overflow: hidden;
   margin: 10px 1%;
   min-width: 220px;
   max-width: 310px;
   width: 100%;
   color: #333;
-  text-align: left;
+  text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
+  
+  
 }
 figure.snip1139 * {
   -webkit-box-sizing: border-box;

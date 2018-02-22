@@ -1,3 +1,8 @@
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -9,9 +14,9 @@
   
   .title {
     text-align: center;
-    font-family: 'Oswald';
+    font-family: 'Tangerine', cursive;
     font-weight: 90;
-    font-size: 2.75rem;
+    font-size: 3.75rem;
     letter-spacing: 2px;
     background: linear-gradient(rgba(255, 0, 0, 0), #444, rgba(255, 0, 0, 0));
     -webkit-background-clip: text;
@@ -105,8 +110,8 @@
     top: -200px;
     margin-bottom: 2rem;
     margin-top: 4rem;
-    font-size: 2.25rem;
-    font-family: 'Oswald';
+    font-size: 3.25rem;
+    font-family: 'Tangerine', cursive;
     font-weight: 100;
     color: white;
     text-align: center;
