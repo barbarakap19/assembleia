@@ -1,0 +1,15 @@
+.jumbotron-fluid {
+    background:
+    linear-gradient(to left bottom, 
+    rgba(300, 300, 300, 0),
+    rgba(300, 300, 300, 1)),
+    url(http://elevatedbilling.com/wp-content/uploads/2015/10/US-College-Students-Now-Use-More-Marijuana-Than-Cigarettes.jpg);   
+    background-size: cover;
+    min-height: 600px;   
+    color: #FFB300;
+}
+
+.display-2 {
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #696969;
+}

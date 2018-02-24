@@ -9,23 +9,23 @@
         <button class="w3-padding-large w3-button" title="More">IGREJA <i class="fa fa-caret-down"></i></button>     
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
           <a href="#" class="w3-bar-item w3-button" [routerLink]="['sobre']">Sobre</a>
-          <a href="#" class="w3-bar-item w3-button">Líder</a>
-          <a href="#" class="w3-bar-item w3-button" [routerLink]="['onde']">Localização</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['lider']">Líder</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['localizacao']">Localização</a>
         </div>
       </div>
       <div class="w3-dropdown-hover w3-hide-small">
         <button class="w3-padding-large w3-button" title="More">MINISTÉRIOS<i class="fa fa-caret-down"></i></button>     
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
-          <a href="#" class="w3-bar-item w3-button">Missão Kids</a>
-          <a href="#" class="w3-bar-item w3-button">Missão Adolescentes</a>
-          <a href="#" class="w3-bar-item w3-button">Missão Jovens</a>
-          <a href="#" class="w3-bar-item w3-button">Missão Homens</a>
-          <a href="#" class="w3-bar-item w3-button">Missão Mulheres</a>
-          <a href="#" class="w3-bar-item w3-button">Missão Família</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['kids']">Missão Kids</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['adolescente']">Missão Adolescentes</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['jovens']">Missão Jovens</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['homens']">Missão Homens</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['mulheres']">Missão Mulheres</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['familia']">Missão Família</a>
         </div>
       </div>
-      <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CULTOS</a>
-      <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CÉLULAS</a>
+      <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small" [routerLink]="['cultos']">CULTOS</a>
+      <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small" [routerLink]="['celulas']">CÉLULAS</a>
      
     </div>
   </div>

@@ -15,25 +15,27 @@ import { RedeSocialComponent } from './rede-social/rede-social.component';
 import { FooterComponent } from './footer/footer.component';
 import { DivHrComponent } from './div-hr/div-hr.component';
 import { SobreComponent } from './subpastas/igreja/sobre/sobre.component';
-import { OndeEstamosComponent } from './subpastas/igreja/onde-estamos/onde-estamos.component';
-import { AgendaComponent } from './subpastas/igreja/agenda/agenda.component';
 import { SiteRoutingModule } from './site.routing.module';
 import { KidsComponent } from './subpastas/ministerios/kids/kids.component';
 import { AdolescenteComponent } from './subpastas/ministerios/adolescente/adolescente.component';
 import { JovensComponent } from './subpastas/ministerios/jovens/jovens.component';
 import { DiasCelulasComponent } from './subpastas/celulas/dias-celulas/dias-celulas.component';
-
 import { LeiaMaisComponent } from './mensagem/leia-mais/leia-mais.component';
 import { DownloadComponent } from './mensagem/download/download.component';
 import { Blog2Component } from './pastores/blog-02/blog-02.component';
 import { Blog3Component } from './pastores/blog-03/blog-03.component';
+import { LiderComponent } from './subpastas/igreja/lider/lider.component';
+import { LocalizacaoComponent } from './subpastas/igreja/localizacao/localizacao.component';
+import { HomensComponent } from './subpastas/ministerios/homens/homens.component';
+import { MulheresComponent } from './subpastas/ministerios/mulheres/mulheres.component';
+import { FamiliaComponent } from './subpastas/ministerios/familia/familia.component';
 
 @NgModule({
   imports: [
     CommonModule,
     SiteRoutingModule
   ],
-  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, OndeEstamosComponent, AgendaComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LeiaMaisComponent, DownloadComponent, Blog2Component, Blog3Component],
-  exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, OndeEstamosComponent, AgendaComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LeiaMaisComponent, DownloadComponent, Blog2Component, Blog3Component],
+  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LeiaMaisComponent, DownloadComponent, Blog2Component, Blog3Component, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent ],
+  exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LeiaMaisComponent, DownloadComponent, Blog2Component, Blog3Component, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent],
 })
 export class SiteModule { }
