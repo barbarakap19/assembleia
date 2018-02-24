@@ -22,8 +22,7 @@ import { KidsComponent } from './subpastas/ministerios/kids/kids.component';
 import { AdolescenteComponent } from './subpastas/ministerios/adolescente/adolescente.component';
 import { JovensComponent } from './subpastas/ministerios/jovens/jovens.component';
 import { DiasCelulasComponent } from './subpastas/celulas/dias-celulas/dias-celulas.component';
-import { ResponsaveisComponent } from './subpastas/celulas/responsaveis/responsaveis.component';
-import { EncontreCelulasComponent } from './subpastas/celulas/encontre-celulas/encontre-celulas.component';
+
 import { LeiaMaisComponent } from './mensagem/leia-mais/leia-mais.component';
 import { DownloadComponent } from './mensagem/download/download.component';
 import { Blog2Component } from './pastores/blog-02/blog-02.component';
@@ -34,7 +33,7 @@ import { Blog3Component } from './pastores/blog-03/blog-03.component';
     CommonModule,
     SiteRoutingModule
   ],
-  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, OndeEstamosComponent, AgendaComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, ResponsaveisComponent, EncontreCelulasComponent, LeiaMaisComponent, DownloadComponent, Blog2Component, Blog3Component],
-  exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, OndeEstamosComponent, AgendaComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, ResponsaveisComponent, EncontreCelulasComponent, LeiaMaisComponent, DownloadComponent, Blog2Component, Blog3Component],
+  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, OndeEstamosComponent, AgendaComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LeiaMaisComponent, DownloadComponent, Blog2Component, Blog3Component],
+  exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, AovivoComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, OndeEstamosComponent, AgendaComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LeiaMaisComponent, DownloadComponent, Blog2Component, Blog3Component],
 })
 export class SiteModule { }

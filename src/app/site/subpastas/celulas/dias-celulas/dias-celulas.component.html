@@ -1,43 +1,46 @@
-<div class="tab-content" id="nav-pills-content">
-<h1>Dias de células </h1>
-    <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
 
-        <div class="row">
-<div class="container">
-    <div class="row row-striped">
-        <div class="col-4 text-right">
-            <h1 class="display-4"><span class="badge badge-secondary">20</span></h1>
-            <h2>FEV</h2>
+<!-- Navbar -->
+<div class="w3-content" style="max-width:1100px;margin-bottom:80px">
+    <div class="w3" >
+        <div class="w3-bar w3-teal w3-card">
+          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fas fa-bars"></i></a>
+          <a href="#" class="w3-bar-item w3-button w3-padding-large" [routerLink]="['']">HOME</a>
+          <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-padding-large w3-button" title="More">IGREJA <i class="fa fa-caret-down"></i></button>     
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="#" class="w3-bar-item w3-button" [routerLink]="['sobre']">Sobre</a>
+              <a href="#" class="w3-bar-item w3-button">Líder</a>
+              <a href="#" class="w3-bar-item w3-button" [routerLink]="['onde']">Localização</a>
+            </div>
+          </div>
+          <div class="w3-dropdown-hover w3-hide-small">
+            <button class="w3-padding-large w3-button" title="More">MINISTÉRIOS<i class="fa fa-caret-down"></i></button>     
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a href="#" class="w3-bar-item w3-button">Missão Kids</a>
+              <a href="#" class="w3-bar-item w3-button">Missão Adolescentes</a>
+              <a href="#" class="w3-bar-item w3-button">Missão Jovens</a>
+              <a href="#" class="w3-bar-item w3-button">Missão Homens</a>
+              <a href="#" class="w3-bar-item w3-button">Missão Mulheres</a>
+              <a href="#" class="w3-bar-item w3-button">Missão Família</a>
+            </div>
+          </div>
+          <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CULTOS</a>
+          <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small" [routerLink]="['dias_celulas']">CÉLULAS</a>
+         
         </div>
-        <div class="col-6">
-            <h3 class="text-uppercase"><strong>Culto de Libertação</strong></h3>
-            <ul class="list-inline">
-                <li class="list-inline-item"><i class="far fa-calendar-alt mr-1"></i>Terça</li>
-                <li class="list-inline-item"><i class="far fa-clock mr-1"></i>18:00 - 21:00</li>
-                <li class="list-inline-item"><i class="fas fa-location-arrow mr-1"></i>Av. João Paulo II, 350 - Marco</li>
-            </ul>
-            <p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-    </div>
-    <div class="row row-striped">
-        <div class="col-4 text-right">
-            <h1 class="display-4"><span class="badge badge-secondary">21</span></h1>
-            <h2>FEV</h2>
-        </div>
-        <div class="col-6">
-            <h3 class="text-uppercase"><strong>Tarde da benção</strong></h3>
-            <ul class="list-inline">
-                    <li class="list-inline-item"><i class="far fa-calendar-alt mr-1"></i>Quarta</li>
-                    <li class="list-inline-item"><i class="far fa-clock mr-1"></i>14:00 - 17:00</li>
-                    <li class="list-inline-item"><i class="fas fa-location-arrow mr-1"></i>Av. João Paulo II, 350 - Marco</li>
-            </ul>
-            <p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-    </div>
-</div>
-
+      </div>
+      
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-teal w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large">IGREJA</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large">MINISTÉRIOS</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CULTOS</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">CÉLULAS</a>
+      </div>
+      
+<div class="row justify-content-sm-center ">
+       
+<img src="assets/img/manutencao.png" alt="Lights" class="w3-image" style="margin-top:100px;">
 </div>
 </div>
-</div>
-
 

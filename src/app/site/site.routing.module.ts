@@ -8,8 +8,7 @@ import { KidsComponent } from "./subpastas/ministerios/kids/kids.component";
 import { AdolescenteComponent } from "./subpastas/ministerios/adolescente/adolescente.component";
 import { JovensComponent } from "./subpastas/ministerios/jovens/jovens.component";
 import { DiasCelulasComponent } from "./subpastas/celulas/dias-celulas/dias-celulas.component";
-import { ResponsaveisComponent } from "./subpastas/celulas/responsaveis/responsaveis.component";
-import { EncontreCelulasComponent } from "./subpastas/celulas/encontre-celulas/encontre-celulas.component";
+
 import { BlogComponent } from "./pastores/blog/blog.component";
 import { LeiaMaisComponent } from "./mensagem/leia-mais/leia-mais.component";
 import { DownloadComponent } from "./mensagem/download/download.component";
@@ -24,8 +23,6 @@ const route = [
     {path: 'adolescente', component: AdolescenteComponent},
     {path: 'jovens', component: JovensComponent},
     {path: 'dias_celulas', component: DiasCelulasComponent},
-    {path: 'responsaveis', component: ResponsaveisComponent},
-    {path: 'encontre_celulas', component: EncontreCelulasComponent},
     {path: 'blog', component: BlogComponent},
     {path: 'leia-mais', component: LeiaMaisComponent},
     {path: 'download', component: DownloadComponent},

@@ -16,6 +16,7 @@
 a:-webkit-any-link {
     
     cursor: pointer;
+    color: #ffff;
    
 }
 
@@ -23,12 +24,6 @@ a:-webkit-any-link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-   
-}
-
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
    
 }
 
