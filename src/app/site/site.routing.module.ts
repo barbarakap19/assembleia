@@ -11,6 +11,11 @@ import { LocalizacaoComponent } from "./subpastas/igreja/localizacao/localizacao
 import { HomensComponent } from "./subpastas/ministerios/homens/homens.component";
 import { MulheresComponent } from "./subpastas/ministerios/mulheres/mulheres.component";
 import { FamiliaComponent } from "./subpastas/ministerios/familia/familia.component";
+import { OracaoComponent } from "./cultos/cultos02/oracao/oracao.component";
+import { ProfeticaComponent } from "./cultos/cultos02/profetica/profetica.component";
+import { EnsinoComponent } from "./cultos/cultos02/ensino/ensino.component";
+import { EscolaComponent } from "./cultos/cultos02/escola/escola.component";
+import { CelebracaoComponent } from "./cultos/cultos02/celebracao/celebracao.component";
 
 const route = [
     {path: 'sobre', component: SobreComponent},
@@ -23,6 +28,11 @@ const route = [
     {path: 'homens', component: HomensComponent},
     {path: 'mulheres', component: MulheresComponent},
     {path: 'familia', component: FamiliaComponent},
+    {path: 'oracao', component: OracaoComponent},
+    {path: 'profetica', component: ProfeticaComponent},
+    {path: 'ensino', component: EnsinoComponent},
+    {path: 'escola', component: EscolaComponent},
+    {path: 'celebracao', component: CelebracaoComponent},
 ];
 
 @NgModule({

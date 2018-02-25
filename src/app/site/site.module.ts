@@ -23,13 +23,18 @@ import { LocalizacaoComponent } from './subpastas/igreja/localizacao/localizacao
 import { HomensComponent } from './subpastas/ministerios/homens/homens.component';
 import { MulheresComponent } from './subpastas/ministerios/mulheres/mulheres.component';
 import { FamiliaComponent } from './subpastas/ministerios/familia/familia.component';
+import { OracaoComponent } from './cultos/cultos02/oracao/oracao.component';
+import { ProfeticaComponent } from './cultos/cultos02/profetica/profetica.component';
+import { EnsinoComponent } from './cultos/cultos02/ensino/ensino.component';
+import { EscolaComponent } from './cultos/cultos02/escola/escola.component';
+import { CelebracaoComponent } from './cultos/cultos02/celebracao/celebracao.component';
 
 @NgModule({
   imports: [
     CommonModule,
     SiteRoutingModule
   ],
-  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent ],
-  exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent,  ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent],
+  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent ],
+  exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent,  ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent],
 })
 export class SiteModule { }
