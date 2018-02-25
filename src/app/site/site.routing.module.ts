@@ -6,11 +6,6 @@ import { KidsComponent } from "./subpastas/ministerios/kids/kids.component";
 import { AdolescenteComponent } from "./subpastas/ministerios/adolescente/adolescente.component";
 import { JovensComponent } from "./subpastas/ministerios/jovens/jovens.component";
 import { DiasCelulasComponent } from "./subpastas/celulas/dias-celulas/dias-celulas.component";
-import { BlogComponent } from "./pastores/blog/blog.component";
-import { LeiaMaisComponent } from "./mensagem/leia-mais/leia-mais.component";
-import { DownloadComponent } from "./mensagem/download/download.component";
-import { Blog2Component } from "./pastores/blog-02/blog-02.component";
-import { Blog3Component } from "./pastores/blog-03/blog-03.component";
 import { LiderComponent } from "./subpastas/igreja/lider/lider.component";
 import { LocalizacaoComponent } from "./subpastas/igreja/localizacao/localizacao.component";
 import { HomensComponent } from "./subpastas/ministerios/homens/homens.component";
@@ -23,11 +18,6 @@ const route = [
     {path: 'adolescente', component: AdolescenteComponent},
     {path: 'jovens', component: JovensComponent},
     {path: 'dias_celulas', component: DiasCelulasComponent},
-    {path: 'blog', component: BlogComponent},
-    {path: 'leia-mais', component: LeiaMaisComponent},
-    {path: 'download', component: DownloadComponent},
-    {path: 'blog-02', component: Blog2Component},
-    {path: 'blog-03', component: Blog3Component},
     {path: 'lider', component: LiderComponent},
     {path: 'localizacao', component: LocalizacaoComponent},
     {path: 'homens', component: HomensComponent},

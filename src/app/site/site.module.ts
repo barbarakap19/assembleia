@@ -8,7 +8,6 @@ import { CultosComponent } from './cultos/cultos.component';
 import { MensagemComponent } from './mensagem/mensagem.component';
 import { TestemunhosComponent } from './testemunhos/testemunhos.component';
 import { PastoresComponent } from './pastores/pastores.component';
-import { BlogComponent } from './pastores/blog/blog.component';
 import { ContatoComponent } from './contato/contato.component';
 import { RedeSocialComponent } from './rede-social/rede-social.component';
 import { FooterComponent } from './footer/footer.component';
@@ -19,10 +18,6 @@ import { KidsComponent } from './subpastas/ministerios/kids/kids.component';
 import { AdolescenteComponent } from './subpastas/ministerios/adolescente/adolescente.component';
 import { JovensComponent } from './subpastas/ministerios/jovens/jovens.component';
 import { DiasCelulasComponent } from './subpastas/celulas/dias-celulas/dias-celulas.component';
-import { LeiaMaisComponent } from './mensagem/leia-mais/leia-mais.component';
-import { DownloadComponent } from './mensagem/download/download.component';
-import { Blog2Component } from './pastores/blog-02/blog-02.component';
-import { Blog3Component } from './pastores/blog-03/blog-03.component';
 import { LiderComponent } from './subpastas/igreja/lider/lider.component';
 import { LocalizacaoComponent } from './subpastas/igreja/localizacao/localizacao.component';
 import { HomensComponent } from './subpastas/ministerios/homens/homens.component';
@@ -34,7 +29,7 @@ import { FamiliaComponent } from './subpastas/ministerios/familia/familia.compon
     CommonModule,
     SiteRoutingModule
   ],
-  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LeiaMaisComponent, DownloadComponent, Blog2Component, Blog3Component, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent ],
-  exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, BlogComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LeiaMaisComponent, DownloadComponent, Blog2Component, Blog3Component, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent],
+  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent ],
+  exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent,  ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent],
 })
 export class SiteModule { }

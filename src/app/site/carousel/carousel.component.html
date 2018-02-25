@@ -24,8 +24,24 @@
           <a href="#" class="w3-bar-item w3-button" [routerLink]="['familia']">Missão Família</a>
         </div>
       </div>
-      <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small" [routerLink]="['aovivo']">CULTOS</a>
-      <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small" [routerLink]="['dias-celulas']">CÉLULAS</a>
+
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">CULTOS<i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['kids']">Círculo de Oração</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['adolescente']">Quarta Profética</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['jovens']">Culto de Oração e Ensino</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['homens']">Culto da Família com Escola Dominical</a>
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['mulheres']">Culto de Celebração</a>
+        </div>
+      </div>
+
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-padding-large w3-button" title="More">CÉLULAS<i class="fa fa-caret-down"></i></button>     
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="#" class="w3-bar-item w3-button" [routerLink]="['kids']">Dias de Células</a>
+        </div>
+      </div>
      
     </div>
   </div>
