@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { SiteComponent } from './site.component';
 import { HeaderComponent } from './header/header.component';
@@ -32,7 +33,8 @@ import { CelebracaoComponent } from './cultos/cultos02/celebracao/celebracao.com
 @NgModule({
   imports: [
     CommonModule,
-    SiteRoutingModule
+    SiteRoutingModule,
+    FormsModule
   ],
   declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent ],
   exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent,  ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent],
