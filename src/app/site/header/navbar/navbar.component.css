@@ -83,7 +83,7 @@ a:-webkit-any-link {
 }
 }
 
-.header .header-slogan, .header .header-text {
+.header .header-inner .header-slogan, .header .header-text {
     color:#888;
     font-family: 'Tangerine', cursive;
     font-size: 40px;
