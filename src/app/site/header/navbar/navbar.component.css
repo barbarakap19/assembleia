@@ -14,10 +14,7 @@
 }
 
 a:-webkit-any-link {
-    
     cursor: pointer;
-    color: #ffff;
-   
 }
 
 .blockquote-bubble, .flex-valign, .flex-valign-b, .header-inner, .header-inner .header-block-flex, .theme-colours {
