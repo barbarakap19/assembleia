@@ -29,6 +29,12 @@ import { ProfeticaComponent } from './cultos/cultos02/profetica/profetica.compon
 import { EnsinoComponent } from './cultos/cultos02/ensino/ensino.component';
 import { EscolaComponent } from './cultos/cultos02/escola/escola.component';
 import { CelebracaoComponent } from './cultos/cultos02/celebracao/celebracao.component';
+import { BannerComponent } from './banner/banner.component';
+import { ProgramacaoComponent } from './programacao/programacao.component';
+import { EstudosBiblicosComponent } from './estudos-biblicos/estudos-biblicos.component';
+import { ConvencaoComponent } from './convencao/convencao.component';
+import { Banner2Component } from './banner-2/banner-2.component';
+import { BibliaOnlineComponent } from './biblia-online/biblia-online.component';
 
 @NgModule({
   imports: [
@@ -36,7 +42,7 @@ import { CelebracaoComponent } from './cultos/cultos02/celebracao/celebracao.com
     SiteRoutingModule,
     FormsModule
   ],
-  declarations: [DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent ],
-  exports: [DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent,  ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent],
+  declarations: [BibliaOnlineComponent,Banner2Component,ConvencaoComponent,EstudosBiblicosComponent,ProgramacaoComponent,BannerComponent,DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent ],
+  exports: [BibliaOnlineComponent,Banner2Component,ConvencaoComponent,EstudosBiblicosComponent,ProgramacaoComponent,BannerComponent,DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent,  ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent],
 })
 export class SiteModule { }

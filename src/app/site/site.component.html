@@ -1,9 +1,53 @@
     <app-carousel></app-carousel>
 
-    <app-cultos></app-cultos>
+    <div class="w3-content" style="max-width:1100px;">
 
-    
+        <app-banner></app-banner>
 
+        <div class="w3-row w3-padding w3-border">
+             
+
+             <!--Lado esquerdo-->
+            <div class="w3-col l8 s12">
+
+                <app-programacao></app-programacao>
+                
+                <app-testemunhos></app-testemunhos>
+
+                <app-convencao></app-convencao>
+
+                <app-banner-2></app-banner-2>
+
+                <app-pastores></app-pastores>
+
+            </div>
+
+            <!--Lado direito-->
+            <div class="w3-col l4">
+
+                <app-mensagem></app-mensagem>
+
+                <app-estudos-biblicos></app-estudos-biblicos>
+
+                <app-cultos></app-cultos>
+
+                <app-biblia-online></app-biblia-online>
+
+                <app-contato></app-contato>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+        <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption"></p>
+        </div>
+    </div>
     
 
     
