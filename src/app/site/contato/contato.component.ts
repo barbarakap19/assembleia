@@ -1,14 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
-
-export class PedidoHoracao {
-  nome: string;
-  email: string;
-  menssagem: string
-}
-
-
+import { EmailService, IMessage } from '../email.service';
 @Component({
   selector: 'app-contato',
   templateUrl: './contato.component.html',
@@ -16,44 +9,34 @@ export class PedidoHoracao {
 })
 export class ContatoComponent implements OnInit {
 
-  pedidoHoracao: PedidoHoracao;
+  message: IMessage = {};
 
   constructor(
-    private router: Router
+    private router: Router,
+    private emailService:EmailService
   ) { }
 
   ngOnInit() {
-    this.pedidoHoracao = new PedidoHoracao();
+    
   }
 
-  getFormGroupClass(isValid: boolean, isPristine: boolean): {} {
-    return {
-      'form-group': true,
-      'has-danger': !isValid && !isPristine,
-      'has-success': isValid && !isPristine
-    };
-  }
-  getFormControlClass(isValid: boolean, isPristine: boolean): {} {
-    return {
-      'form-control': true,
-      'form-control-danger': !isValid && !isPristine,
-      'form-control-success': isValid && !isPristine
-    };
+  onSubmit(form: NgForm) {
+   this.sendEmail(form);
+    form.reset();
   }
 
-  onSubmit(form: FormControl): void {
-    console.log(this.pedidoHoracao);
-
-    this.novo(form);
-
-  }
-
-  novo(form: FormControl) {
+  novo(form: NgForm) {
     form.reset();
     setTimeout(function () {
-      this.pedidoHoracao = new PedidoHoracao();
+      this.message = {};
     }.bind(this), 1);
     this.router.navigate([''])
   }
 
+  sendEmail(form: NgForm) {
+    this.emailService.sendEmail(form.value).subscribe(res => {
+    }, error => {
+      console.log('AppComponent Error', error);
+    })
+  }
 }

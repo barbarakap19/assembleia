@@ -9,44 +9,38 @@
             <br>
             <!-- <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Telefone: +00 151515 -->
             <!-- <br> -->
-            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> E-mail: mail@mail.com
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <span style="font-size: 0.8em;">E-mail: assembleia@adprimeirodedezembro2.com.br</span>
             <br>
         </div>
-        <form (ngSubmit)="onSubmit(contatoForm)" #contatoForm="ngForm" novalidate autocomplete="off">
-            <div [ngClass]="getFormGroupClass(nome.valid, nome.pristine)">
-                <p>
-                    <input class="w3-input w3-border" [ngClass]="getFormControlClass(nome.valid, nome.pristine)" type="text" placeholder="Seu nome"
-                        style="width:100%" name="nome" #nome="ngModel" [(ngModel)]="pedidoHoracao.nome" required>
-                </p>
-                <div class="form-control-feedback" [hidden]="nome.valid || nome.pristine" style="color: red">O campo nome é obrigatório</div>
-            </div>
 
-            <div [ngClass]="getFormGroupClass(email.valid, email.pristine)">
-                <p>
-                    <input class="w3-input w3-border" type="email" placeholder="Seu e-mail" style="width:100%" [ngClass]="getFormControlClass(email.valid, email.pristine)"
-                        name="email" #email="ngModel" [(ngModel)]="pedidoHoracao.email" required email>
-                </p>
-                <div class="form-control-feedback" [hidden]="email.valid || email.pristine" style="color: red">O campo email é obrigatório</div>
-                <div class="form-control-feedback" [hidden]="email.valid || email.pristine" style="color: red">Insira um email válido</div>
-            </div>
-            <div [ngClass]="getFormGroupClass(menssagem.valid, menssagem.pristine)">
-                <p>
-                    <textarea class="w3-input w3-border" type="message" placeholder="Sua mensagem" style="width:100%" [ngClass]="getFormControlClass(menssagem.valid, menssagem.pristine)"
-                        name="menssagem" #menssagem="ngModel" [(ngModel)]="pedidoHoracao.menssagem" required></textarea>
-                </p>
-                <div class="form-control-feedback" [hidden]="menssagem.valid || menssagem.pristine" style="color: red">O campo menssagem é obrigatório</div>
-            </div>
+        <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+            <p>
+                <input class="w3-input w3-border" type="text" id="name" name="name" placeholder="Seu nome" ngModel required>
+            </p>
 
+            <p>
+                <input class="w3-input w3-border" type="email" placeholder="Seu e-mail" name="email" ngModel required email>
+            </p>
 
-            <div class="w3-container w3-white w3-center">
-                <p>
-                    <button type="submit" [disabled]="!contatoForm.form.valid" class="w3-button w3-teal w3-round-xlarge ">Enviar</button>
-                </p>
-            </div>
+            <p>
+                <textarea class="w3-input w3-border" placeholder="Sua mensagem" name="menssagem" ngModel
+                    required></textarea>
+            </p>
+        <div class="w3-container w3-white w3-center">
+            <p>
+                <button type="submit" [disabled]="f.invalid" class="w3-button w3-teal w3-round-xlarge">Enviar</button>
+            </p>
+        </div>
         </form>
-
+        
     </div>
-    <div id="googleMap" class="w3-round-large" style="width:100%;height:400px;">
+    
+    <div id="googleMap" class="w3-round-large" >
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.54921106334!2d-48.4625664852458!3d-1.4451804989460209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48c3fc695626b%3A0x2ef128020f04ee2e!2sAssembl%C3%A9ia+de+Deus+Templo+Primeiro+De+Dezembro+II!5e0!3m2!1spt-BR!2sbr!4v1518572457472"
+<<<<<<< HEAD
             width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
+=======
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+>>>>>>> 928900d8c040c7a4100d5c5320a00978f9889fd4

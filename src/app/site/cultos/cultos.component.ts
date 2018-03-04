@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-
 @Component({
   selector: 'app-cultos',
   templateUrl: './cultos.component.html',
@@ -8,6 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CultosComponent implements OnInit {
   ngOnInit(): void {
-    throw new Error("Method not implemented.");
+    
   }
 }
