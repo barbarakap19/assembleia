@@ -34,14 +34,18 @@ import { ProgramacaoComponent } from './programacao/programacao.component';
 import { EstudosBiblicosComponent } from './estudos-biblicos/estudos-biblicos.component';
 import { Banner2Component } from './banner-2/banner-2.component';
 import { BibliaOnlineComponent } from './biblia-online/biblia-online.component';
+import { EmailService } from './email.service';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   imports: [
     CommonModule,
     SiteRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
   declarations: [BibliaOnlineComponent,Banner2Component,EstudosBiblicosComponent,ProgramacaoComponent,BannerComponent,DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent ],
   exports: [BibliaOnlineComponent,Banner2Component,EstudosBiblicosComponent,ProgramacaoComponent,BannerComponent,DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent,  ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent],
+  providers: [EmailService]
 })
 export class SiteModule { }
