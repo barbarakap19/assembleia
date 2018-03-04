@@ -33,7 +33,7 @@ if(empty($errors))
 	$headers .= "From: $from_email\n";
 	$headers .= "Reply-To: $to_email";
 
-	mail("contato@adprimeirodedezembro2.com.br",$email_subject,$email_body,$headers);
+	mail("assembleia@adprimeirodedezembro2.com.br",$email_subject,$email_body,$headers);
 
 	$response_array['status'] = 'success';
 	$response_array['from'] = $from_email;
