@@ -36,6 +36,7 @@ import { Banner2Component } from './banner-2/banner-2.component';
 import { BibliaOnlineComponent } from './biblia-online/biblia-online.component';
 import { EmailService } from './email.service';
 import { HttpModule } from '@angular/http';
+import { NavComponent } from './header/nav/nav.component';
 
 @NgModule({
   imports: [
@@ -44,8 +45,8 @@ import { HttpModule } from '@angular/http';
     FormsModule,
     HttpModule
   ],
-  declarations: [BibliaOnlineComponent,Banner2Component,EstudosBiblicosComponent,ProgramacaoComponent,BannerComponent,DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent ],
-  exports: [BibliaOnlineComponent,Banner2Component,EstudosBiblicosComponent,ProgramacaoComponent,BannerComponent,DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent,  ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent,JovensComponent, DiasCelulasComponent, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent],
+  declarations: [BibliaOnlineComponent,Banner2Component,EstudosBiblicosComponent,ProgramacaoComponent,BannerComponent,DivHrComponent,SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent,DiasCelulasComponent, LiderComponent,LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent,NavComponent ],
+  exports: [BibliaOnlineComponent, Banner2Component, EstudosBiblicosComponent, ProgramacaoComponent, BannerComponent, DivHrComponent, SiteComponent, HeaderComponent, NavbarComponent, CarouselComponent, CultosComponent, MensagemComponent, TestemunhosComponent, PastoresComponent, ContatoComponent, RedeSocialComponent, FooterComponent, SobreComponent, KidsComponent, AdolescenteComponent, JovensComponent, DiasCelulasComponent, LiderComponent, LocalizacaoComponent, HomensComponent, MulheresComponent, FamiliaComponent, OracaoComponent, ProfeticaComponent, EnsinoComponent, EscolaComponent, CelebracaoComponent, NavComponent],
   providers: [EmailService]
 })
 export class SiteModule { }
